@@ -2,8 +2,8 @@ import smtplib
 
 
 def send_reminder():
-    my_email = "valorantclipxs@gmail.com"
-    password = "moiu uhuw pwur iuxi"
+    my_email = "your_gmail"
+    password = "Your_app_password" # create app passoward from your mail
 
     ending_date = "21-JULY-2026"
     reminder_date = "7-JULY-2026"
@@ -15,7 +15,7 @@ def send_reminder():
 
         connection.sendmail(
             from_addr=my_email,
-            to_addrs="sandeepnegi5898@gmail.com",
+            to_addrs="Receiver_mail",
             msg= f"subject: GEMINI PRO CANCELLATION REMENIDER\n\n Your Free subscription is ending on {ending_date}. Please cancel it on {reminder_date} to avoid charges. After {ending_date} monthly fees will be deducted."
         )
 
