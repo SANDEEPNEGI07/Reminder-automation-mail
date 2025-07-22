@@ -6,7 +6,7 @@ def send_reminder():
     password = "Your_app_password" # create app passoward from your mail
 
     ending_date = "21-JULY-2026"
-    reminder_date = "7-JULY-2026"
+    reminder_date = "14-JULY-2026"
 
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
